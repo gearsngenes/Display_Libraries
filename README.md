@@ -8,3 +8,12 @@ Each folder contains a .h and .cpp file. These make up a library. In addition to
 
 ## Programming Language IDE?
 These libraries were made using the Arduino 1.8.8 IDE, meaning they are written in a variant C++ format. The example files provided in each library are also written in this IDE, so to run them, you must use Arduino.
+
+## Download and Install
+When you are trying to download and install any of these libraries, it is important that you follow these steps.
+1. Download this repository to your desktop or computer, either by clicking clone or download.
+2. If you downloaded a zip file, extract it to wherever you are holding your Arduino libraries.
+3. This repository contains multiple libraries. In order for the Arduino **libraries** folder to access them properly, you must take out each library from the repository and place it in **libraries** individually. So in other words, your **libraries** should look something like this:
+  - GnG_AF_OledFeather
+  - GnGminiTFTjoystickFeather
+  - GnGminiTFTjoystickFeather
